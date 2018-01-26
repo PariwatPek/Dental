@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#81d4fa</color>
+    <color name="colorPrimaryDark">#4ba3c7</color>
+    <color name="colorAccent">#b6ffff</color>
+    <color name="black_transparent">#80000000</color>
+    <color name="mainMenu_background_color">#E0F7FA</color>
+    <color name="bgScreenColor">#E0F7FA</color>
+    <color name="customView_titleColor">#80DEEA</color>
+</resources>

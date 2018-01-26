@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/mainMenu_background_color">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_marginTop="20dp">
+                <view.AdjustableImageButton
+                    android:id="@+id/braces_teeth_imgButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+
+                    android:layout_marginLeft="@dimen/dimens_margin_ten"
+                    android:layout_marginBottom="@dimen/dimens_margin_five"
+                    android:layout_marginRight="@dimen/dimens_margin_ten"
+                    android:layout_marginTop="@dimen/dimens_margin_ten"
+
+                    android:background="@drawable/round_button"
+                    android:src="@drawable/ic_icn_braces_teeth" />
+                <view.AdjustableImageButton
+                    android:id="@+id/brush_teeth_imgButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+
+                    android:layout_marginLeft="@dimen/dimens_margin_ten"
+                    android:layout_marginBottom="@dimen/dimens_margin_five"
+                    android:layout_marginRight="@dimen/dimens_margin_ten"
+                    android:layout_marginTop="@dimen/dimens_margin_ten"
+
+                    android:background="@drawable/round_button"
+                    android:src="@drawable/ic_icn_brush_teeth" />
+            </TableRow>
+            <TableRow
+                android:layout_width="0dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:text="จัดฟัน"
+                    android:paddingLeft="@dimen/text_padding_to_center_position"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:text="ขัดฟัน"
+                    android:paddingLeft="@dimen/text_padding_to_center_position"/>
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_marginTop="20dp">
+                <view.AdjustableImageButton
+                    android:id="@+id/cover_teeth_imgButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+
+                    android:layout_marginLeft="@dimen/dimens_margin_ten"
+                    android:layout_marginBottom="@dimen/dimens_margin_five"
+                    android:layout_marginRight="@dimen/dimens_margin_ten"
+                    android:layout_marginTop="@dimen/dimens_margin_ten"
+
+                    android:background="@drawable/round_button"
+                    android:src="@drawable/ic_icn_cover_teeth" />
+                <view.AdjustableImageButton
+                    android:id="@+id/heal_root_teeth_imgButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+
+                    android:layout_marginLeft="@dimen/dimens_margin_ten"
+                    android:layout_marginBottom="@dimen/dimens_margin_five"
+                    android:layout_marginRight="@dimen/dimens_margin_ten"
+                    android:layout_marginTop="@dimen/dimens_margin_ten"
+
+                    android:background="@drawable/round_button"
+                    android:src="@drawable/ic_icn_heal_root_teeth" />
+            </TableRow>
+            <TableRow
+                android:layout_width="0dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:text="ครอบฟัน"
+                    android:paddingLeft="@dimen/text_padding_to_center_position"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:text="รักษารากฟัน"
+                    android:paddingLeft="@dimen/text_padding_to_center_position"/>
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_marginTop="20dp">
+                <view.AdjustableImageButton
+                    android:id="@+id/loose_teeth_imgButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+
+                    android:layout_marginLeft="@dimen/dimens_margin_ten"
+                    android:layout_marginBottom="@dimen/dimens_margin_five"
+                    android:layout_marginRight="@dimen/dimens_margin_ten"
+                    android:layout_marginTop="@dimen/dimens_margin_ten"
+
+                    android:background="@drawable/round_button"
+                    android:src="@drawable/ic_icn_loose_teeth" />
+                <view.AdjustableImageButton
+                    android:id="@+id/pull_teeth_imgButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+
+                    android:layout_marginLeft="@dimen/dimens_margin_ten"
+                    android:layout_marginBottom="@dimen/dimens_margin_five"
+                    android:layout_marginRight="@dimen/dimens_margin_ten"
+                    android:layout_marginTop="@dimen/dimens_margin_ten"
+
+                    android:background="@drawable/round_button"
+                    android:src="@drawable/ic_icn_pull_teeth" />
+            </TableRow>
+            <TableRow
+                android:layout_width="0dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:text="อุดฟัน"
+                    android:paddingLeft="@dimen/text_padding_to_center_position"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:text="ถอนฟัน"
+                    android:paddingLeft="@dimen/text_padding_to_center_position"/>
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="0dp"
+                android:weightSum="2"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp">
+                <view.AdjustableImageButton
+                    android:id="@+id/wisdom_teeth_imgButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+
+                    android:layout_marginLeft="@dimen/dimens_margin_ten"
+                    android:layout_marginBottom="@dimen/dimens_margin_five"
+                    android:layout_marginRight="@dimen/dimens_margin_ten"
+                    android:layout_marginTop="@dimen/dimens_margin_ten"
+
+                    android:background="@drawable/round_button"
+                    android:src="@drawable/ic_icn_wisdom_teeth" />
+            </TableRow>
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_marginBottom="@dimen/dimens_margin_ten">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:text="ฟันคุด"
+                    android:paddingLeft="@dimen/text_padding_to_center_position"/>
+            </TableRow>
+
+
+        </TableLayout>
+
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app ="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E0F7FA"
+>
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#66b2ff"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="About Us"
+                android:textColor="#3399ff"
+                android:textSize="35dp"/>
+            <TextView
+                android:id="@+id/tvAddress"
+                android:layout_width="330dp"
+                android:layout_height="250dp"
+
+                android:background="#FFFFFF"
+                android:paddingLeft="12dp"
+                android:paddingTop="12dp"
+                android:text="คลินิกทันตกรรมยิ้มหวาน 134/13 ม.3 ต.คลองสวนพลู อ.อยุธยา จ.อยุธยา 13000
+โทร 080-509-2490 , 063-925-2590"
+                android:layout_alignParentTop="true"
+             />
+
+            <LinearLayout
+                android:layout_width="330dp"
+                android:layout_height="250dp"
+                android:layout_below="@+id/tvAddress"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="24dp"
+                android:layout_marginTop="24dp"
+                android:background="#FFFFFF"
+                android:id="@+id/linearLayout">
+
+                <fragment
+                    android:id="@+id/map"
+                    android:name="com.google.android.gms.maps.SupportMapFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"></fragment>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

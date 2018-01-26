@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Yimwhan Clinic</string>
+    <string name="facebook_app_id">166422583943219</string>
+    <string name="fb_login_protocol_scheme">fb166422583943219</string>
+    <string name="page_1">Menu</string>
+    <string name="page_2">Calender</string>
+    <string name="page_3">Accout</string>
+    <string name="content">content</string>
+    <string name="title">title</string>
+    <string name="kuy">gg</string>
+    <string name="google_maps_key">AIzaSyBmPvj-GfkIHDtqPYmyImrhE59nOpEPa-s</string>
+</resources>

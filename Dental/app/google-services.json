@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "38283117996",
+    "firebase_url": "https://dentalclinic-4fce2.firebaseio.com",
+    "project_id": "dentalclinic-4fce2",
+    "storage_bucket": "dentalclinic-4fce2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38283117996:android:de5d7d8789cf4e93",
+        "android_client_info": {
+          "package_name": "com.clinic.romeo.dental"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "38283117996-64t2t2r9gf1dmtreg21hmfcnu4hfkd61.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANdg-8t2KRnxFYr2f_vIgYidgkPRfzmnw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

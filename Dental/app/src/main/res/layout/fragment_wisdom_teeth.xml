@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0F7FA"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/imgView1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignLeft="@+id/tv1"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="24dp"
+            android:src="@drawable/ic_icn_wisdom_teeth"
+            android:background="@drawable/round_button"/>
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="300dp"
+            android:layout_height="280dp"
+            android:layout_below="@+id/imgView1"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="#FFFFFF"
+            android:padding="10dp"
+            android:text="- ผ่าฟันคุด 1,500-3,500 บาท/ซี่
+ใช้เวลา 1 ชั่วโมง" />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/tv1"
+            android:layout_below="@+id/tv1"
+            android:layout_gravity="right"
+            android:layout_marginTop="24dp"
+            android:background="#009688"
+            android:text="CONFIRM"
+            android:textColor="#FFFFFF" />
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#81d4fa</item>
+        <item name="colorPrimaryDark">#4ba3c7</item>
+        <item name="colorAccent">#b6ffff</item>
+    </style>
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Used for the buttons -->
+        <item name="colorAccent">#666666</item>
+        <!-- Used for the title and text -->
+        <item name="android:textColorPrimary">#ffffff</item>
+        <!-- Used for the background -->
+        <item name="android:background">#81d4fa</item>
+    </style>
+    <style name="MyEditText" parent="Theme.AppCompat.Light">
+    <item name="colorControlNormal">#ffffff</item>
+    <item name="colorControlActivated">#FF69B4</item>
+</style>
+</resources>

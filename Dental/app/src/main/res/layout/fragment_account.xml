@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/mainMenu_background_color">
+
+        <LinearLayout
+            android:weightSum="3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+<!--
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/profile_account"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:weightSum="2"
+                >
+
+                <Button
+                    android:id="@+id/btnprofile"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#e5ccff"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Profile"
+                    android:textSize="20sp"
+                    android:elegantTextHeight="true"
+                    android:elevation="10dp"/>
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#cc99ff"
+                    android:src="@drawable/ic_account_circle_black_24dp"
+                    android:elevation="10dp"
+                    android:id="@+id/imageprofile2" />
+
+            </LinearLayout>
+-->
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/edit_accont"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:weightSum="2"
+                >
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#66b2ff"
+                    android:src="@drawable/ic_account_box_black_24dp"
+                    android:elevation="10dp"
+                    android:id="@+id/imageView2" />
+
+                <Button
+                    android:id="@+id/btnEdit"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#87cefa"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Edit Your Profile"
+                    android:textSize="20sp"
+                    android:elegantTextHeight="true"
+                    android:elevation="10dp"/>
+
+
+            </LinearLayout>
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:weightSum="2"
+                >
+                <Button
+                    android:id="@+id/btnAu"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#A6F1EA"
+                    android:gravity="center"
+                    android:text="About Us"
+                    android:textSize="20sp"
+                    android:elegantTextHeight="true"
+                    android:elevation="10dp"/>
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#80CBC4"
+                    android:src="@drawable/ic_map_black_24dp"/>
+            </LinearLayout>
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:weightSum="2"
+                >
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+
+                    android:layout_weight="1"
+                    android:background="#AED581"
+                    android:src="@drawable/ic_history_black_24dp"
+                    android:elevation="10dp"/>
+                <Button
+                    android:id="@+id/btnHis"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#D4FBA7"
+                    android:text="History"
+                    android:textSize="20sp"
+                    android:elegantTextHeight="true"
+                    android:elevation="10dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
